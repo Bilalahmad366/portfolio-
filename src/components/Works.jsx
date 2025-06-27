@@ -18,7 +18,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
+      {/* <Tilt
         options={{
           max: 45,
           scale: 1,
@@ -62,7 +62,21 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </Tilt>
+      </Tilt> */}
+<div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+  <div className="relative w-full h-[230px]">
+    <img
+      src={image || "https://via.placeholder.com/300x200?text=Missing+Image"}
+      alt="project_image"
+      className="w-full h-full object-cover rounded-2xl"
+    />
+  </div>
+
+  <div className="mt-5">
+    <h3 className="text-white font-bold text-[24px]">{name}</h3>
+    <p className="mt-2 text-secondary text-[14px]">{description}</p>
+  </div>
+</div>
     </motion.div>
   );
 };
