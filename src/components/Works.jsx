@@ -74,27 +74,36 @@ const Works = () => {
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
-      <div className="w-full flex flex-col gap-3">
-        <motion.div
-          variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 max-w-3xl leading-[30px] flex flex-col gap-3"
-        >
-          <p className="text-secondary text-[17px]">
-            Following projects showcase my skills and experience through
-            real-world examples of my work. Each project is briefly described
-            with links to code repositories and live demos. It reflects my
-            ability to solve complex problems, work with different technologies,
-            and manage projects effectively.
-          </p>
+<div className="w-full flex flex-col gap-6">
+  <motion.div
+    variants={fadeIn("", "", 0.1, 1)}
+    className="mt-6 max-w-3xl leading-[32px] flex flex-col gap-5 text-secondary text-[16px]"
+  >
+    <p>
+      The projects below represent a curated selection of my professional experience and technical capabilities. Each project highlights my ability to architect and deliver scalable solutions, work with modern technologies, and manage end-to-end development with precision and creativity.
+    </p>
 
-          <p className="text-secondary text-[16px] flex items-center gap-2">
-            Most of my best projects are in the company GitHub under my
-            contributions, but due to security policies, they can't be publicly
-            shared.
-           
-          </p>
-        </motion.div>
-      </div>
+    <p>
+      While many of my most impactful contributions are housed within private company repositories and cannot be shared publicly due to confidentiality agreements, they’ve been instrumental in sharpening my skills and delivering meaningful results.
+    </p>
+
+    <p>
+      One of my publicly accessible and active projects is my own portfolio website,{" "}
+      <a
+        href="https://asiaunfolded.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-400 underline hover:text-blue-500 transition"
+      >
+        AsiaUnfolded.com
+      </a>
+      . This full-stack travel blog platform is hosted securely with HTTPS and built with performance, accessibility, and SEO best practices in mind. It features in-depth articles on Asia’s most beautiful and culturally significant destinations, reflecting my ability to deliver user-friendly, content-rich web applications from the ground up.
+    </p>
+  </motion.div>
+</div>
+
+
+
 
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
