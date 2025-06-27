@@ -27,15 +27,15 @@ import optimus from "./company/optimus.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import bubblebanner from "../assets/projects/bubblebanner.png";
-import ecommerce from "../assets/projects/ecommerce.png";
-import jobportal from "../assets/projects/jobportal.png";
-import netflixclone from "../assets/projects/netflixclone.png";
-import portfolio3d from "../assets/projects/portfolio3d.png";
-import randommeals from "../assets/projects/randommeals.png";
-import collagegen from "../assets/projects/collagegen.png";
-import rentservice from "../assets/projects/rentservice.png";
-import solarbilling from "../assets/projects/solarbilling.png";
+import bubblebanner from "/projects/bubblebanner.png";
+import ecommerce from "/projects/ecommerce.png";
+import jobportal from "/projects/jobportal.png";
+import netflixclone from "/projects/netflixclone.png";
+import portfolio3d from "/projects/portfolio3d.png";
+import randommeals from "/projects/randommeals.png";
+import collagegen from "/projects/collagegen.png";
+import rentservice from "/projects/rentservice.png";
+import solarbilling from "/projects/solarbilling.png";
 
 export {
   logo,
