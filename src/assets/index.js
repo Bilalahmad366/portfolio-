@@ -27,7 +27,7 @@ import optimus from "./company/optimus.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import bubblebanner from "../assets/projects/bubble banner.png";
+import bubblebanner from "../assets/projects/bubblebanner.png";
 import ecommerce from "../assets/projects/ecommerce.png";
 import jobportal from "../assets/projects/jobportal.png";
 import netflixclone from "../assets/projects/netflixclone.png";
