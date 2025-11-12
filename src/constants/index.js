@@ -16,6 +16,7 @@ import {
   figma,
   docker,
   optimus,
+  evernest,
   bubblebanner,
   ecommerce,
   jobportal,
@@ -24,7 +25,10 @@ import {
   randommeals,
   collagegen,
   rentservice,
-  solarbilling
+  solarbilling,
+  theCovenest,
+  inventorySaas,
+  nottingham,
 } from "../assets";
 
 export const navLinks = [
@@ -61,7 +65,6 @@ const services = [
   },
 ];
 
-
 const technologies = [
   {
     name: "HTML 5",
@@ -80,13 +83,14 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
     name: "Vue JS",
     icon: vuejs,
   },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+
   {
     name: "Next JS",
     icon: nextjs,
@@ -118,49 +122,39 @@ const technologies = [
 ];
 
 const experiences = [
-  
   {
-    title: "Web Developer",
+    title: "Lead Developer",
     company_name: "Optimus Algos",
     icon: optimus,
+    iconBg: "#383E56",
+    date: "July 2022 - August 2025",
+    points: [
+      "Led the development of SaaS-based projects and managed the complete development lifecycle from concept to deployment.",
+      "Developed dynamic and scalable web applications using Vue.js, Next.js, React.js, JavaScript, and TypeScript.",
+      "Built and maintained full-stack applications with Node.js, Laravel, and MongoDB, ensuring high performance and scalability.",
+      "Designed and integrated RESTful APIs, implemented authentication using JWT, and managed CI/CD pipelines for continuous deployment.",
+      "Collaborated with cross-functional teams to ensure seamless integration between frontend and backend systems.",
+      "Optimized website performance, accessibility, and SEO to improve user engagement and search engine visibility.",
+      "Provided technical leadership, conducted code reviews, and mentored junior developers to uphold best practices and coding standards.",
+    ],
+  },
+  {
+    title: "Full-Stack Lead Developer",
+    company_name: "Evernest Marketing",
+    icon: evernest,
     iconBg: "#E6DEDD",
-    date: "july 2022 - present",
+    date: "September 2025 - Present",
     points: [
-      "Developed dynamic and scalable web applications using vue.js , Next.js, React.js, javascript and TypeScript.",
-      "Integrated RESTful APIs and optimized frontend performance for fast load times.",
-      "Worked on cross-browser compatibility and mobile-first designs.",
-      "Improved website accessibility and SEO to enhance search engine ranking.",
+      "Leading multiple full-stack projects including travel websites (like Booking.com), real estate platforms, and corporate websites.",
+      "Developed and deployed TheCovenest.com, a live platform, and HCPL website, ensuring full functionality and responsiveness.",
+      "Worked with React.js, Next.js, Vue.js, Node.js, Laravel, and MongoDB for building high-performance, scalable web applications.",
+      "Implemented RESTful APIs, authentication, and payment gateways for booking and e-commerce functionalities.",
+      "Optimized frontend and backend performance, ensuring fast load times, cross-browser compatibility, and mobile-first design.",
+      "Collaborated with designers and stakeholders to deliver high-quality user experiences across all projects.",
+      "Mentored team members, performed code reviews, and implemented best practices in coding and project management.",
     ],
   },
-  {
-    title: "Frontend Developer",
-    company_name: "Optimus Algos",
-    icon: optimus,
-    iconBg: "#383E56",
-    date: "jan 2023 - present",
-    points: [
-      "Developed and maintained web applications using React.js, Vue.js , next.js , CSS and Tailwind CSS.",
-      "Implemented responsive and interactive UI components to enhance user experience.",
-      "Collaborated with designers and backend developers to ensure seamless integration.",
-      "Participated in code reviews and optimized performance for better scalability.",
-    ],
-  },
-  {
-    title: "Full-Stack Developer",
-    company_name: "Optimus Algos",
-    icon: optimus,
-    iconBg: "#383E56",
-    date: "april 2023 - present",
-    points: [
-      "Built and maintained scalable web applications using Node.js , next.js, Laravel, and MongoDB.",
-      "Designed RESTful APIs and implemented authentication with JWT.",
-      "Deployed applications using Docker and managed CI/CD pipelines.",
-      "Collaborated with teams to optimize database queries and improve performance.",
-    ],
-  },
-  
 ];
-
 
 const testimonials = [
   {
@@ -191,6 +185,48 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Inventory-SaaS",
+    description:
+      "A comprehensive inventory management system with a fully role-based dashboard, advanced permissions, bulk product uploads, sales points, purchase reports, and real-time analytics. Developed to handle end-to-end inventory operations efficiently.",
+    tags: [
+      { name: "Node.js", color: "blue-text-gradient" },
+      { name: "Vue.js", color: "green-text-gradient" },
+      { name: "SaaS", color: "pink-text-gradient" },
+      { name: "Dashboard", color: "orange-text-gradient" },
+      { name: "Role-based", color: "purple-text-gradient" },
+    ],
+    image: inventorySaas,
+    source_code_link: "https://inventory-saas.netlify.app/",
+  },
+  {
+    name: "Nottingham Travel",
+    description:
+      "A full-stack travel booking platform built with Next.js, featuring a powerful admin dashboard that manages real-time hotel, flight, and package bookings. The system allows administrators to track bookings, update availability, manage payments, and generate reports, ensuring smooth operations and an optimized user experience.",
+    tags: [
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "React.js", color: "green-text-gradient" },
+      { name: "Node.js", color: "pink-text-gradient" },
+      { name: "Admin Dashboard", color: "orange-text-gradient" },
+      { name: "Real-time Booking", color: "purple-text-gradient" },
+    ],
+    image: nottingham,
+    source_code_link: "#", // Update if there’s a live demo or repo link
+  },
+  {
+    name: "TheCovenest.com",
+    description:
+      "A fully live real estate platform built with Node.js and Vue.js. Features a responsive frontend and a comprehensive admin dashboard for managing listings, user accounts, bookings, and content dynamically. End-to-end development including API integrations and performance optimization.",
+    tags: [
+      { name: "Node.js", color: "blue-text-gradient" },
+      { name: "Vue.js", color: "green-text-gradient" },
+      { name: "Real Estate", color: "pink-text-gradient" },
+      { name: "Dashboard", color: "orange-text-gradient" },
+      { name: "Full-stack", color: "purple-text-gradient" },
+    ],
+    image: theCovenest,
+    source_code_link: "https://thecovenest.com",
+  },
+  {
     name: "Bubble Banner",
     description:
       "Animated HTML/CSS/JS banner with floating bubbles for visually engaging web headers and landing pages.",
@@ -199,7 +235,7 @@ const projects = [
       { name: "css", color: "green-text-gradient" },
       { name: "javascript", color: "pink-text-gradient" },
     ],
-    image: bubblebanner, 
+    image: bubblebanner,
     source_code_link: "https://github.com/Bilalahmad366/",
   },
   {
@@ -211,7 +247,7 @@ const projects = [
       { name: "restapi", color: "green-text-gradient" },
       { name: "tailwind", color: "pink-text-gradient" },
     ],
-    image: ecommerce, 
+    image: ecommerce,
     source_code_link: "https://github.com/Bilalahmad366/ecomerce_web",
   },
   {
@@ -223,7 +259,7 @@ const projects = [
       { name: "nodejs", color: "green-text-gradient" },
       { name: "express", color: "pink-text-gradient" },
     ],
-    image: jobportal, 
+    image: jobportal,
     source_code_link: "https://github.com/Bilalahmad366/job-portal- ",
   },
   {
@@ -234,7 +270,7 @@ const projects = [
       { name: "html", color: "blue-text-gradient" },
       { name: "css", color: "green-text-gradient" },
     ],
-    image: netflixclone, 
+    image: netflixclone,
     source_code_link: "https://github.com/Bilalahmad366/Netflex",
   },
   {
@@ -245,7 +281,7 @@ const projects = [
       { name: "react", color: "blue-text-gradient" },
       { name: "threejs", color: "green-text-gradient" },
     ],
-    image: portfolio3d, 
+    image: portfolio3d,
     source_code_link: "https://github.com/Bilalahmad366/portfolio-",
   },
   {
@@ -256,7 +292,7 @@ const projects = [
       { name: "vue", color: "blue-text-gradient" },
       { name: "restapi", color: "green-text-gradient" },
     ],
-    image: randommeals, 
+    image: randommeals,
     source_code_link: "https://github.com/Bilalahmad366/random-meals",
   },
   {
@@ -268,21 +304,22 @@ const projects = [
       { name: "html", color: "green-text-gradient" },
       { name: "css", color: "pink-text-gradient" },
     ],
-    image: collagegen, 
-    source_code_link: "https://github.com/Bilalahmad366/random-collage-generator",
+    image: collagegen,
+    source_code_link:
+      "https://github.com/Bilalahmad366/random-collage-generator",
   },
- {
-  name: "Rent Service & Property Management",
-  description:
-    "A comprehensive system to manage tenants, monthly rent reports, property sections, and CRUD operations for properties. Designed for landlords and property admins to organize rental operations efficiently.",
-  tags: [
-    { name: "vue", color: "blue-text-gradient" },
-    { name: "nodejs", color: "green-text-gradient" },
-    { name: "mongodb", color: "pink-text-gradient" },
-  ],
-  image: rentservice,
-  source_code_link: "https://github.com/Bilalahmad366/rent-service",
-},
+  {
+    name: "Rent Service & Property Management",
+    description:
+      "A comprehensive system to manage tenants, monthly rent reports, property sections, and CRUD operations for properties. Designed for landlords and property admins to organize rental operations efficiently.",
+    tags: [
+      { name: "vue", color: "blue-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "mongodb", color: "pink-text-gradient" },
+    ],
+    image: rentservice,
+    source_code_link: "https://github.com/Bilalahmad366/rent-service",
+  },
   {
     name: "Solar Billing System",
     description:
@@ -292,7 +329,7 @@ const projects = [
       { name: "vue", color: "green-text-gradient" },
       { name: "mongodb", color: "pink-text-gradient" },
     ],
-    image: solarbilling, 
+    image: solarbilling,
     source_code_link: "https://github.com/Bilalahmad366/solar-billing-system-",
   },
 ];

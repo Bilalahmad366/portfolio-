@@ -22,6 +22,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 
 import optimus from "./company/optimus.png";
+import evernest from "./company/evernest.png";
 
 // Project Images (NEW ADDITIONS BELOW)
 import carrent from "./carrent.png";
@@ -36,8 +37,14 @@ import randommeals from "/projects/randommeals.png";
 import collagegen from "/projects/collagegen.png";
 import rentservice from "/projects/rentservice.png";
 import solarbilling from "/projects/solarbilling.png";
+import inventorySaas from "/projects/inventrox.png";
+import theCovenest from "/projects/thecovenest.png";
+import nottingham from "/projects/nottingham.png";
 
 export {
+  inventorySaas,
+  theCovenest,
+  nottingham,
   logo,
   backend,
   creator,
@@ -59,11 +66,12 @@ export {
   nextjs,
   tailwind,
   typescript,
- optimus,
+  optimus,
+  evernest,
   carrent,
   jobit,
   tripguide,
-   bubblebanner,
+  bubblebanner,
   ecommerce,
   jobportal,
   netflixclone,
