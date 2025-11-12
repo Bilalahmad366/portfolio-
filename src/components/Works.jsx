@@ -20,7 +20,7 @@ const ProjectCard = ({
 
    const shortDesc = description.length > 120 ? description.slice(0, 120) + "..." : description;
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <div >
       <Tilt
         options={{
           max: 45,
@@ -76,20 +76,20 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
-    </motion.div>
+    </div>
   );
 };
 
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-      </motion.div>
+      </div>
       <div className="w-full flex flex-col gap-6">
-        <motion.div
-          variants={fadeIn("", "", 0.1, 1)}
+        <div
+         
           className="mt-6 max-w-3xl leading-[32px] flex flex-col gap-5 text-secondary text-[16px]"
         >
           <p>
@@ -215,7 +215,7 @@ const Works = () => {
             workflows, and delivering production-ready solutions in real-world
             scenarios.
           </p>
-        </motion.div>
+        </div>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
