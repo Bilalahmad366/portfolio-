@@ -20,6 +20,8 @@ import vuejs from "./tech/vuejs.jpg";
 import nextjs from "./tech/nextjs.jpg";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import mysql from "./tech/mysqL.jpg";
+import postgresql from "./tech/postgress.png";
 
 import optimus from "./company/optimus.png";
 import evernest from "./company/evernest.png";
@@ -63,6 +65,8 @@ export {
   nodejs,
   reactjs,
   vuejs,
+  mysql,
+  postgresql,
   nextjs,
   tailwind,
   typescript,

@@ -17,6 +17,8 @@ import {
   docker,
   optimus,
   evernest,
+    mysql,
+  postgresql,
   bubblebanner,
   ecommerce,
   jobportal,
@@ -107,6 +109,14 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
+   {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
   {
     name: "git",
     icon: git,
@@ -154,6 +164,25 @@ const experiences = [
       "Mentored team members, performed code reviews, and implemented best practices in coding and project management.",
     ],
   },
+
+
+  {
+  title: "Vue.js Developer",
+  company_name: "Tumarm",
+  icon: optimus, 
+  iconBg: "#E6DEDD",
+  date: "January 2026 - April 2026",
+  points: [
+    "Developed modern and scalable web applications using Vue.js.",
+    "Built reusable and performance-optimized UI components.",
+    "Integrated REST APIs with backend services.",
+    "Collaborated with backend developers to deliver responsive and high-quality user interfaces.",
+    "Improved application performance and maintainability using Vue.js best practices.",
+  ],
+},
+
+
+
 ];
 
 const testimonials = [
